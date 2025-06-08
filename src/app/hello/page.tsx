@@ -12,5 +12,5 @@ export default function Page() {
     xyz(); // ✅ Call the async function
   }, []);
 
-  return <div>Hello World</div>;
+  return <h1>Hello from Next.js!</h1>;
 }
