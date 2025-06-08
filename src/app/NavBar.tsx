@@ -24,6 +24,24 @@ function NavBar() {
               static
             </Nav.Link>
           </Nav>
+          <Nav>
+            <Nav.Link
+              as={Link}
+              href="/dynamic"
+              active={pathname === "/dynamic"} 
+            >
+              dynamic
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link
+              as={Link}
+              href="/ISR"
+              active={pathname === "/ISR"} 
+            >
+              ISR
+            </Nav.Link>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
