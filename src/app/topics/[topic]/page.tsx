@@ -14,6 +14,8 @@ export function generateStaticParams() {
 // Revalidate page every 1 hour for fresh content
 export const revalidate = 3600;
 
+export const dynamicParams = false;
+
 export default async function Page({ params }: Props) {
   const { topic } = await params;
 
