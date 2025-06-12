@@ -1,4 +1,5 @@
 export interface UnslashImage {
+    id: string;
     "description": string,
     "urls": {
         "raw": string,
