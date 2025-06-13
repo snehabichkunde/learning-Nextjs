@@ -10,4 +10,6 @@ export interface UnslashImage {
     },
     "width": number,
     "height": number,
+    alt_description?: string | null;
+
 }
